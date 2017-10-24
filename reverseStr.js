@@ -21,7 +21,6 @@ function reverseStrRec(str) {
     }
 
     return reverseStrRec(str.substr(1)) + str.charAt(0);
-
 }
 
 // normal reverse

@@ -7,8 +7,8 @@ function reverseStr(str) {
     let tmp = "";
     let leng = str.length;
 
-    for(let i = 0; i <= leng; i++){
-        tmp += str.charAt(leng-i);
+    for(let i = 0; i < leng; i++){
+        tmp += str.charAt(leng-1-i);
     }
 
     return tmp;
